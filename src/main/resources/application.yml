@@ -1,0 +1,13 @@
+####################
+## SPRING CONFIGS ##
+####################
+spring:
+  datasource:
+    username: sw
+    url: jdbc:postgresql://54.158.205.197:5432/emelda
+    driverClassName: org.postgresql.Driver
+    password: sentrywave
+  jpa:
+    show-sql: 'false'
+    hibernate:
+      ddl-auto: update
